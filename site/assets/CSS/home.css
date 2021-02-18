@@ -1,0 +1,143 @@
+html{
+	font-family: Poppins, sans-serif;
+}
+
+.total{
+  width: 100%;
+	height:100%;
+}
+
+.zero{
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.JS{
+	display:flex;
+  z-index: 1;
+  position: fixed;
+}
+
+.background{
+	position: fixed;
+	object-fit: cover;
+	filter: brightness(0.60);
+}
+
+.time_date{
+	color: white;
+	z-index: 2;
+  display: flex;
+  position: fixed;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+
+.time{
+	font-size: 5vmax;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 2%;
+}
+
+.date{
+	font-size: 3vmax;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.blank{
+  z-index: 3;
+  position: fixed;
+}
+
+.main{
+  display:flex;
+  z-index: 4;
+  position: fixed;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  height: 70%;
+  top:10%;
+  left:2%;
+}
+
+.englobeur{
+  width: 64px;
+	height:64px;
+}
+
+.big_onglet{
+ display: flex;
+ justify-content: space-between;
+}
+
+.englobeur:hover .st_onglet{
+	opacity: 1;
+}
+
+.englobeur:hover .onglet{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.englobeur:hover .big_onglet{
+  width: 25vmax;
+}
+
+.st_onglet{
+	opacity: 0.7;
+}
+
+.onglet{
+	display: none;
+}
+
+.icone{
+	border-radius: 25px;
+	width: 50px;
+  height: 50px;
+}
+
+.center{
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+}
+
+.button{
+	background-color:transparent;
+	border:none;
+	cursor: pointer;
+}
+
+.page2{
+	display:flex;
+  z-index: 4;
+	position: unset;
+  flex-flow: row wrap;
+  height: 70%;
+  top:15%;
+	width: 98%;
+}
+
+.fav{
+	width: 64px;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.7;
+	margin-left: 2%;
+}
+
+.fav:hover{
+	opacity: 1;
+}
