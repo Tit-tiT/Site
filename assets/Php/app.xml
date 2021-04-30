@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<favories>
+  <fav>
+    <app>
+      <name>Disney+</name>
+      <lien>https://www.disneyplus.com/home</lien>
+      <icone>assets\Icone\Disney+.png</icone>
+    </app>
+    <app>
+      <name>amazon</name>
+      <lien>https://www.amazon.fr/</lien>
+      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://www.amazon.fr/</icone>
+    </app>
+    <app>
+      <name>voiranime</name>
+      <lien>https://voiranime.com/</lien>
+      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://voiranime.com/</icone>
+    </app>
+    <app>
+      <name>lookmovie</name>
+      <lien>https://lookmovie.io/</lien>
+      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://lookmovie.io/</icone>
+    </app>
+    <app>
+      <name>iggame</name>
+      <lien>https://igg-games.com/</lien>
+      <icone>assets\Icone\iggame.png</icone>
+    </app>
+    <app>
+      <name>wakanim</name>
+      <lien>https://www.wakanim.tv/</lien>
+      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://www.wakanim.tv/</icone>
+    </app>
+  </fav>
+</favories>
