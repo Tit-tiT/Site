@@ -5,7 +5,13 @@ Site d'acceuil simpliste à mettre en localhost.
 ## Fonctionalité :
 - Permet d'avoir des liens cliquables.
 - Permet de lire l'heure.
-- Permet de rajouter automatiquement d'autres liens cliquables.
+- Permet de rajouter automatiquement d'autres liens cliquables :
+    - 1 - Lancer le site sur un navigateur.
+    - 2 - Cliquer sur le `+`.
+    - 3 - Recliquer sur le `+`.
+    - 4 - Rentrer le nom du site à ajouter.
+    - 5 - Rentrer l'adresse du site à ajouter.
+    - 6 - Le lien est ajouté !
 
 ## Dépendance :
 - Besoin d'un serveur php pour lancer le site.
