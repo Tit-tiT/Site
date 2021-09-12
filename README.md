@@ -21,3 +21,8 @@ Site d'acceuil simpliste à mettre en localhost.
 ## Lancement du site :
 - Configurer votre serveur php de telle sorte à ce qu'il lance `index.php`.  
 - Merci de laisser les fichiers dans la même configuration pour un bon fonctionnement.
+
+## A Venir :
+- Faire un system de récupération de pour les images en background.
+- Mettre le test de debit en popup.
+- Faire en sorte que lors d'appuie des bontons cela génère du HTML et ne modifie pas le CSS.
