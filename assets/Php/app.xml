@@ -31,5 +31,10 @@
       <lien>https://www.wakanim.tv/</lien>
       <icone>https://logo.clearbit.com/www.wakanim.tv/</icone>
     </app>
-</fav>
+    <app>
+      <name>GitHub</name>
+      <lien>https://github.com/</lien>
+      <icone>https://logo.clearbit.com/https://github.com/</icone>
+    </app>
+  </fav>
 </favories>
