@@ -5,6 +5,7 @@ Site d'acceuil simpliste à mettre en localhost.
 ## Fonctionalité :
 - Permet d'avoir des liens cliquables.
 - Permet de lire l'heure.
+- Permet de faire un test de debit.
 - Permet de rajouter automatiquement d'autres liens cliquables :
     - 1 - Lancer le site sur un navigateur.
     - 2 - Cliquer sur le `+`.
@@ -18,4 +19,5 @@ Site d'acceuil simpliste à mettre en localhost.
 - Besoin d'internet pour que certains icones s'affiches.
 
 ## Lancement du site :
-Configurer votre serveur php de telle sorte à ce qu'il lance `index.php`.
+- Configurer votre serveur php de telle sorte à ce qu'il lance `index.php`.  
+- Merci de laisser les fichiers dans la même configuration pour un bon fonctionnement.
