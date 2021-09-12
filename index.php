@@ -144,6 +144,13 @@
       echo  "</div>";}
        ?>
 
+       <div class="fav">
+
+        <button onclick=" window.open('speedtest.html','SpeedTest','menubar=no, scrollbars=no, top=100, left=100, width=370px, height=400px');" class="button icone center">
+          <img src="assets\Icone\speedtest.png" class="icone" alt="plus logo">
+        </button>
+       </div>
+
       <div class="fav" id="plus">
         <button onclick="addElement();" class="button icone center">
           <img src="assets\Icone\plus.png" class="icone" alt="plus logo">
@@ -168,9 +175,9 @@
         <?php
         if(isset($_REQUEST['valider']) && $_POST['name']!=null && $_POST['lien']!=null){
            $Name= $_POST['name'];
-           $Lien= 'https://' . $_POST['lien'];
+           $Lien= $_POST['lien'];
            if(isset($_POST['auto'])){
-             $Icone = 'https://logo.clearbit.com/https:/lookmovie.io/' . $Lien;
+             $Icone = 'https://logo.clearbit.com/'.$Lien;
            }
            else{
              if(is_uploaded_file($_FILES['userfile']['tmp_name'])){

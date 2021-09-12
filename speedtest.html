@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <script>
+        var SpeedTestOne_color = '777777';
+        var SpeedTestOne_button = '444444';
+        var SpeedTestOne_progress = '777777';
+        var SpeedTestOne_result = '444444';
+        var SpeedTestOne_autostart = 1;
+        var SpeedTestOne_lang = 'fr';
+        function SpeedTestOne(){
+          var BaseURL='https://speedtest.one/embed.php?id='+Math.random()+'';if(typeof SpeedTestOne_background!=='undefined'&&SpeedTestOne_background!==''){BaseURL+='&background='+SpeedTestOne_background;}
+          if(typeof SpeedTestOne_color!=='undefined'&&SpeedTestOne_color!==''){BaseURL+='&color='+SpeedTestOne_color;}
+          if(typeof SpeedTestOne_button!=='undefined'&&SpeedTestOne_button!==''){BaseURL+='&button='+SpeedTestOne_button;}
+          if(typeof SpeedTestOne_buttoncolor!=='undefined'&&SpeedTestOne_buttoncolor!==''){BaseURL+='&buttoncolor='+SpeedTestOne_buttoncolor;}
+          if(typeof SpeedTestOne_progressbar!=='undefined'&&SpeedTestOne_progressbar!==''){BaseURL+='&progressbar='+SpeedTestOne_progressbar;}
+          if(typeof SpeedTestOne_progress!=='undefined'&&SpeedTestOne_progress!==''){BaseURL+='&progress='+SpeedTestOne_progress;}
+          if(typeof SpeedTestOne_result!=='undefined'&&SpeedTestOne_result!==''){BaseURL+='&result='+SpeedTestOne_result;}
+          if(typeof SpeedTestOne_autostart!=='undefined'&&SpeedTestOne_autostart!==''){BaseURL+='&autostart='+SpeedTestOne_autostart;}
+          if(typeof SpeedTestOne_lang!=='undefined'&&SpeedTestOne_lang!==''){BaseURL+='&lang='+SpeedTestOne_lang;}
+          document.write('<iframe id="SpeedTestFrame" src="'+BaseURL+'" style="overflow:hidden;width:100%;border:0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true"></iframe>');
+          document.write('<script type="text/javascript" async="" src="https://analytics.wbumedia.com/matomo.js">< /script>');
+          document.write('<script src="/data/js/speedtest.js?1614097662">< /script>')
+          document.getElementById("SpeedTestFrame").style.height=window.innerHeight-20+"px";
+        }
+        SpeedTestOne();
+
+      </script>
+    </div>
+  </body>
+</html>
