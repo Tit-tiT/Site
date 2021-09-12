@@ -9,17 +9,17 @@
     <app>
       <name>amazon</name>
       <lien>https://www.amazon.fr/</lien>
-      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://www.amazon.fr/</icone>
+      <icone>assets\Icone\amazon.png</icone>
     </app>
     <app>
       <name>voiranime</name>
       <lien>https://voiranime.com/</lien>
-      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://voiranime.com/</icone>
+      <icone>https://logo.clearbit.com/voiranime.com/</icone>
     </app>
     <app>
       <name>lookmovie</name>
       <lien>https://lookmovie.io/</lien>
-      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://lookmovie.io/</icone>
+      <icone>https://logo.clearbit.com/lookmovie.io/</icone>
     </app>
     <app>
       <name>iggame</name>
@@ -29,7 +29,7 @@
     <app>
       <name>wakanim</name>
       <lien>https://www.wakanim.tv/</lien>
-      <icone>https://logo.clearbit.com/https:/lookmovie.io/https://www.wakanim.tv/</icone>
+      <icone>https://logo.clearbit.com/www.wakanim.tv/</icone>
     </app>
-  </fav>
+</fav>
 </favories>
