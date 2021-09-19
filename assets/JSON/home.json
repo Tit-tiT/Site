@@ -1,0 +1,8 @@
+{
+  "Google" : {
+    "nom" : "Google",
+     "lien" : "https://www.google.fr/",
+     "image" : "assets/Icone/google.png"
+   }
+
+}
